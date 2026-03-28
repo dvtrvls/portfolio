@@ -1,0 +1,148 @@
+body
+    {
+        padding: 1rem;
+        background-color: #F7F7F7;
+    }
+
+.main_cont
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+h1  
+    {
+        font-family: "Sigmar One";
+        font-size: 2.5rem;
+    }
+
+img
+    {
+        width: 200px;
+        border: solid #393E46;
+    }
+
+.project-cont
+    {
+        display: flex;
+        padding: 1rem;
+        width: 90%;
+        margin: auto;
+        justify-content: space-around;
+    }
+.description-box
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 1rem;
+      
+    }
+
+.description-box > p
+    {
+        text-align: justify;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #393E46;
+        color: #EEEEEE
+
+    }
+
+.description-box > .project-title, h3
+    {
+        text-align: justify;
+        font-family: 'Courier New', Courier, monospace;
+        color: #222831;
+
+    }
+
+
+.description-box > .right
+    {
+        text-align:right;
+        font-family: 'Courier New', Courier, monospace;
+        color: #222831;
+    }
+
+
+.footer
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 60%;
+        margin: auto;
+    }
+
+
+.footer > p 
+    {
+        font-size: 1.2rem;
+        text-align: justify;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+        color: #393E46;
+
+    }
+
+    
+.nav
+    {
+        display: flex;
+        width: 65%;
+        justify-content: space-evenly;
+        margin: auto;
+        margin-top:1rem;
+        flex-wrap: wrap;
+        background-color: #393E46;
+      
+    }
+
+.nav > li
+    {
+        list-style: none;
+        color: #EEEEEE;
+        font-family: "Google Sans Code";
+        margin: 1rem;
+    }
+
+.button {
+  color: inherit;        /* use the surrounding text color */
+  text-decoration: none; /* remove underline */
+}
+
+.button:visited, a:visited {
+  color: inherit;        /* same color after clicking */
+  text-decoration: none; /* keep underline removed */
+}
+
+.button:hover,
+.button:active {
+  color: bisque;    
+  background-color: black;    /* no color change on hover or click */
+
+}
+
+
+@media (max-width: 700px)
+{
+    .project-cont
+        {
+            flex-wrap: wrap;
+        }
+    .description-box > .project-title, h3, .right
+        {
+            text-align: center;
+             margin: auto;    
+        }
+}
+
+
+@media (max-width: 400px)
+{
+    .nav > li
+    {
+      font-size: 0.8rem;
+    }
+
+}

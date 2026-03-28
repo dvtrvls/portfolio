@@ -1,0 +1,93 @@
+body
+    {
+        padding: 1rem;
+        background-color: #F7F7F7;
+    }
+
+.main_cont
+    {
+        display: flex;
+        flex-direction: column;
+    }
+.long-text
+    {
+        font-family: Monospace;
+        text-align: justify;
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+.header
+    {
+        display: flex;
+        padding:1rem;
+        width: 65%;
+        margin: auto;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+
+.header > #momopfp
+    {
+        height: 8rem;
+        border: solid #393E46 2px; 
+        align-self: center;
+    }
+
+.header > #mydetails > p
+    {
+        font-family: "Google Sans Code";
+    }
+    
+.nav
+    {
+        display: flex;
+        width: 65%;
+        padding:1rem;
+        justify-content: space-evenly;
+        margin: auto;
+        margin-top:1rem;
+        flex-wrap: wrap;
+        background-color: #393E46;
+    }
+
+.nav > li
+    {
+        list-style: none;
+        margin: 0.5rem;
+        color: #EEEEEE;
+        font-family: "Google Sans Code";
+    }
+
+.about-me
+    {
+        display: flex;
+        width: 65%;
+        margin: auto;
+        padding: 1rem;
+    }
+#copyright
+    {
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: 600;
+    letter-spacing: 2px;
+    margin: auto;
+    }
+
+.button {
+  color: inherit;        /* use the surrounding text color */
+  text-decoration: none; /* remove underline */
+}
+
+.button:visited, a:visited {
+  color: inherit;        /* same color after clicking */
+  text-decoration: none; /* keep underline removed */
+}
+
+.button:hover,
+.button:active {
+  color: bisque;    
+  background-color: black;    /* no color change on hover or click */
+
+}
