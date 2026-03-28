@@ -91,3 +91,32 @@ body
   background-color: black;    /* no color change on hover or click */
 
 }
+
+@media (max-width: 500px)
+{
+
+    .header
+        {
+            width: 95%;
+        }
+    .about-me   
+        {
+        width: 95%;
+        }
+
+    #copyright
+    {
+     font-family: 'Courier New', Courier, monospace;
+     margin: auto;
+     text-align: center;
+    }
+
+    #mydetails
+    {
+        margin-top: 1rem;
+    }
+    #mydetails > p
+    {
+        margin: 0px;
+    }
+}
